@@ -1,0 +1,6 @@
+create table Department(deptid int, deptname text, deptloc text);
+insert into Employee(deptid,deptname,deptloc) values
+(1, 'CSE', 'vja'),
+(2, 'ECE', 'hyd'),
+(3, 'EEE', 'vja'),
+(4, 'CSE', 'vja');

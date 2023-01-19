@@ -1,0 +1,6 @@
+create table Employee(empid int, empname text, empsal int, empdob date, emploc text);
+insert into Employee(empid,empname,empsal,empdob,emploc) values
+(1, 'anu', '50000', '09-12-2000', 'vja'),
+(2, 'anitha', '6000', '11-03-2000', 'hyd'),
+(3, 'harshi', '70000', '03-04-2000', 'vja'),
+(4, 'uma', '8000', '04-05-2000', 'vja');
