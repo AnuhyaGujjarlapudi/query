@@ -1,0 +1,9 @@
+Select * from Employee where sal between 20000 and 45000;
+
+Select * from Employee where empname LIKE '%t%';
+
+Select * from Department where deptloc = 'Chennai';
+
+Select * from Department where deptloc = 'hyd' or deptloc = 'Chennai';
+
+Select * from Employee where not emploc = 'hyd' and not emploc = 'Chennai';
